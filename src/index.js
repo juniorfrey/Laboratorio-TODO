@@ -6,16 +6,10 @@ import { crearTodoHtml } from './components/componentes';
 //? Declaraciones
 
 export const todoList = new TodoList();
+console.log(todoList.todos);
+
+todoList.todos.forEach(todo => crearTodoHtml( todo ));
 
 
-const tarea = new Todo('Aprender javascript');
-
-tarea.completado = false;
-
-todoList.nuevoTodo( tarea );
-
-console.log(todoList);
-
-crearTodoHtml( tarea );
 
 
