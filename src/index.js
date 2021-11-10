@@ -5,7 +5,7 @@ import { crearTodoHtml } from './components/componentes';
 
 //? Declaraciones
 
-const todoList = new TodoList();
+export const todoList = new TodoList();
 
 
 const tarea = new Todo('Aprender javascript');
