@@ -33,5 +33,7 @@ export class TodoList{
 
     borrarCompletados(){
 
+        this.todos =   this.todos.filter( todo => todo.completado == !todo.completado );
+
     }
 }
